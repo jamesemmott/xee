@@ -8,6 +8,10 @@
 //!
 //! You can create a [`Documents`] store and load XML documents into it.
 //!
+//! The [`Documents`] store keeps a collection of the added XML documents
+//! [`xee_interpreter::xml::Document`] (having an optional URI and a root node),
+//! alongside a [`xot::Xot`] arena holding their nodes.
+//!
 //! You can also add queries to a [`Queries`] object. You can
 //! then execute queries against the documents store.
 //!
